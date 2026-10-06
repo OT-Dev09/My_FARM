@@ -1,0 +1,34 @@
+* {
+    margin: 0px 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 19%;
+}
+
+.grid-container {
+    width: 1920px;
+    position: relative;
+    display: grid;
+    grid-template-columns:  100fr ;
+    grid-auto-rows: 170px;
+    grid-auto-columns: 170px;
+}
+
+.item {
+    border: 2px solid red;
+}
+
+
+.lastimg {
+    margin-left: 80px;
+}
+
+.item2 {
+    position: absolute;
+    top: 106px;
+    margin-left: 1450px;
+    width: 700px;
+}
