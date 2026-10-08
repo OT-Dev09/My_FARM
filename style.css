@@ -1,34 +1,113 @@
 * {
-    margin: 0px 0px;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 img {
-    max-width: 19%;
+    max-width: 100%;
+}
+
+body {
+    overflow: hidden;
+}
+
+.image {
+    position: relative;
+    background-image: url(images/FarmLand.jpeg);
+    height: 1000px;
+    animation: image 5s;
+}
+
+
+@keyframes image {
+    from {
+        transform: rotate(45deg);
+    }
 }
 
 .grid-container {
-    width: 1920px;
-    position: relative;
     display: grid;
-    grid-template-columns:  100fr ;
-    grid-auto-rows: 170px;
-    grid-auto-columns: 170px;
-}
-
-.item {
-    border: 2px solid red;
-}
-
-
-.lastimg {
-    margin-left: 80px;
-}
-
-.item2 {
+    grid-template-columns: .3fr .2fr .2fr .1fr .1fr;
     position: absolute;
-    top: 106px;
-    margin-left: 1450px;
-    width: 700px;
+    top: 0;
+    z-index: 1000;
+    animation: cloud 1s infinite;
+}
+
+@keyframes cloud {
+    from {
+        transform: translateX(-3px);
+    }
+
+    to {
+        transform: scaleX(1910px);
+    }
+}
+
+.farmhouse {
+    position: fixed;
+    top: 250px;
+    z-index: 900;
+}
+
+
+.house1 {
+    position: fixed;
+    top: -1px;
+    margin-left: 1700px;
+    z-index: 1000;
+}
+
+.farmersmarket {
+    position: fixed;
+    top: 440px;
+    margin-left: 700px;
+    z-index: 900;
+}
+
+.house2 {
+    max-width: 15%;
+    position: fixed;
+    border-radius: 5px;
+    top: 300px;
+    margin-left: 700px;
+}
+
+.barn {
+    position: fixed;
+    width: 25%;
+    top: 400px;
+    left: 1100px;
+}
+
+.perentsec {
+    display: grid;
+    width: 900px;
+    grid-template-columns: 1fr 1fr;
+    top: 500px;
+}
+
+
+.olivebluehorizontal {
+    border: 10px solid #5A87A0;
+    position: fixed;
+    top: 380px;
+    width: 580px;
+    z-index: 1004;
+    border-radius: 10px;
+}
+
+
+.olivebluevertical {
+    background-color: #5A87A0;
+    border: 5px solid #5A87A0;
+    position: fixed;
+    top: 255px;
+    height: 139px;
+    left: 570px;
+    z-index: 1004;
+    width: 10px;
+    border-radius: 5px;
+    /* width: 200px; */
 }

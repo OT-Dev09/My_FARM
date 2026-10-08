@@ -1,0 +1,274 @@
+* {
+    margin: 0px 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 19%;
+}
+
+.grid-container {
+    width: 1920px;
+    position: relative;
+    display: grid;
+    grid-template-columns:  100fr ;
+    grid-auto-rows: 170px;
+    grid-auto-columns: 170px;
+    overflow-x: hidden;
+}
+
+.item {
+    /* border: 2px solid red; */
+    /* margin-top: -1px;
+    border-bottom: 3px solid grey; */
+}
+
+
+.lastimg {
+    margin-left: 80px;
+}
+
+.item2 {
+    position: absolute;
+    top: 106px;
+    margin-left: 1450px;
+    width: 700px;
+}
+
+.rain {
+    width: 50%;
+    /* border: 2px solid green; */
+    position: fixed;
+    margin-top: 60px;
+    animation: rain 3s infinite;
+}
+
+/* @keyframes rain {
+    from {
+        transform: translateX(-5px);
+    }
+    to {
+        transform: translateX(200px);
+    }
+} */
+
+.rain2 {
+    width: 50%;
+    /* border: 2px solid green; */
+    position: fixed;
+    margin-top: 60px;
+    margin-left: 500px;
+    animation: rain2 3s infinite;
+}
+
+/* @keyframes rain2 {
+    from {
+        transform: translateX(1000px);
+    }
+    to {
+        transform: translateX(200px);
+    }
+} */
+
+.rain3 {
+    width: 50%;
+    /* border: 2px solid green; */
+    position: fixed;
+    margin-top: 60px;
+    margin-left: 1000px;
+    animation: rain3 3s infinite;
+}
+
+/* @keyframes rain3 {
+    from {
+        transform: translateX(1900px);
+    }
+    to {
+        transform: translateX(500px);
+    }
+} */
+
+.rain4 {
+    width: 50%;
+    /* border: 2px solid green; */
+    position: fixed;
+    margin-top: 60px;
+    margin-left: 1400px;
+    animation: rain4 5s infinite;
+}
+
+/* @keyframes rain4 {
+    from {
+        transform: translateX(1000px);
+    }
+    to {
+        transform: translateX(-2px);
+    }
+} */
+
+.rain5 {
+    width: 50%;
+    /* border: 2px solid green; */
+    position: fixed;
+    margin-top: 70px;
+    margin-left: 1800px;
+    animation: rain5 4s infinite;
+}
+
+/* @keyframes rain5 {
+    from {
+        transform: translateX(100px);
+    }
+    to {
+        transform: translateX(-1500px);
+    }
+} */
+
+.rain6 {
+    width: 50%;
+    /* border: 2px solid green; */
+    position: fixed;
+    margin-top: 60px;
+    margin-left: 1000px;
+    animation: rain6 4s infinite;
+}
+
+/* @keyframes rain6 {
+    from {
+        transform: translateX(0px);
+    }
+    to {
+        transform: translateX(-1000px);
+    }
+} */
+
+.rain7 {
+    position: fixed;
+    margin-top: 80px;
+    /* border: 2px solid purple; */
+    width: 100%;
+}
+
+.rain8 {
+    position: fixed;
+    margin-top: 2px;
+    padding-top: 1px;
+    /* border: 2px solid black; */
+    width: 100%;
+    margin-left: 1400px;
+}
+
+
+.rain9 {
+    position: fixed;
+    width: 200%;
+}
+
+.rain10 {
+    position: fixed;
+    margin-left: 800px;
+    margin-top: 100px;
+    width: 400%;
+    /* border: 2px solid yellow */
+}
+
+.rain11 {
+    position: fixed;
+    width: 200%;
+    margin-top: 7px;
+    margin-left: 800px;
+    /* border: 2px solid blue; */
+    animation: rain11 5s infinite;
+}
+
+@keyframes rain11 {
+    from {
+        transform: scaleY(1.2);
+    }
+    to {
+        transform: scaleX(1.2);
+    }
+}
+
+
+.rain12 {
+    position: fixed;
+    width: 400%;
+    margin-top: 5px;
+    margin-left: 1400px;
+    /* border: 2px solid salmon; */
+    animation: rain12 2s infinite;
+}
+
+@keyframes ran12 {
+    from {
+        transform: scaleX(1.2);
+    }
+    to {
+        transform: scaleX(1.8);
+    }
+}
+
+.rain13 {
+    position: fixed;
+    width: 400%;
+    margin-top: 5px;
+    margin-left: 300px;
+    /* border: 2px solid hotpink; */
+    animation: rain13 3s infinite;
+}
+
+@keyframes rain13 {
+    from {
+        transform: scaleX(1.2);
+    }
+    to {
+        transform: scaleY(1.5);
+    }
+}
+
+.rain14 {
+    position: fixed;
+    width: 400%;
+    margin-top: 5px;
+    margin-left: 5px;
+    /* border: 2px solid aqua; */
+    animation: rain14 5s infinite;
+}
+
+@keyframes rain14 {
+    from {
+        transform: scaleY(1.2);
+    }
+    to {
+        transform: scaleX(1.2);
+    }
+}
+
+.rain15 {
+    position: fixed;
+    width: 400%;
+    margin-top: 5px;
+    margin-left: 1700px;
+    /* border: 2px solid aqua; */
+    animation: rain15 5s infinite;
+}
+
+@keyframes rain15 {
+    from {
+        transform: scaleY(1.2);
+    }
+    to {
+        transform: scaleX(1.2);
+    }
+}
+
+.farmland {
+    border: 20px solid grey;
+    margin-top: -1px;
+    height: 750px;
+    background-image: url(images/FarmLand.jpeg);
+    background-size: cover;
+    background-position: center;
+}
